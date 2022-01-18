@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sidenav {
+	height: 100%;
+	width: 130px;
+	position: fixed;
+	z-index: 1;
+	left: 10px;
+	background-image: url("img/valorant1.jpg");
+	overflow-x: hidden;
+	padding: 8px 0;
+
+}
+
+.sidenav a {
+	
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #dbe6ff;
+	display: block;
+}
+.sidenav a:hover {
+	color: #09ff00;
+}
+.homes{
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 5px 10px;
+	height: 500px;
+}
+#home {
+	color: white;
+	height: 650px;
+	margin-left: 140px;
+	font-size: 25px;
+	padding: 5px 10px;
+	background-image: url("img/valorant2.jpg" );
+
+}
+
+/*Responsive layout*/
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 15px;}
+}
+
+#about {
+	background-image:linear-gradient(rgb(243, 243, 243), rgb(139, 139, 139),rgb(243, 243, 243));
+	margin-left: 140px;
+	margin-top: 50px;
+	font-size: 25px;
+
+	padding: 5px 10px;
+}
+#services{
+	color: white;
+	height: 650px;
+	margin-left: 140px;
+	font-size: 25px;
+	padding: 5px 10px;
+	background-image: url("img/map.jpg" );
+	overflow: hidden;
+
+}
+.services {
+	background-color: #959595;
+	
+}
+#thumbnails {
+	width: 900px;
+	height: 200px;
+	margin-left: 120px;
+	
+
+}
+#thumbnails ul {
+	padding: 50px;
+}
+#thumbnails ul li {
+	list-style-type: none;
+	margin-left: 20px;
+	float: left;
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 15px;	
+}
+
+#thumbnails img {
+	width: 180px;
+	height: 270px;
+	border-radius: 5px;
+	
+}
+
+#thumbnails img:hover {
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); 
+	transition:ease-in-out 2s;
+}
